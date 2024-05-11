@@ -1,0 +1,7 @@
+apache-sedona==1.5.1
+attrs==23.2.0
+ipython==8.24.0
+numpy==1.26.4
+py4j==0.10.9.7
+pyspark==3.5.1
+shapely==2.0.4
