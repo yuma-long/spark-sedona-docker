@@ -7,8 +7,7 @@ RUN apt-get update \
          curl \
   && apt-get autoremove -yqq --purge \
   && apt-get clean \
-  && rm -rf /var/lib/apt/lists/* \
-  && ls -l /usr/lib/jvm/
+  && rm -rf /var/lib/apt/lists/*
 ENV JAVA_HOME="/usr/lib/jvm/java-17-openjdk-arm64"
 
 # Set working directory and copy requirements.txt (and other materials if any)
